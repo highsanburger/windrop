@@ -105,6 +105,7 @@ func main() {
 				}, window)
 			}),
 		),
+		filePathEntry,
 		codeEntry,
 		uploadButton,
 		widget.NewLabel("Download a file:"),
