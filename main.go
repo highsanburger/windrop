@@ -37,7 +37,7 @@ func main() {
 		output, err := cmd.CombinedOutput()
 		if err != nil {
 			fmt.Println(err)
-			fmt.Println("fucked")
+			fmt.Println("error")
 			showNotification("Upload failed: " + err.Error())
 			return
 		}
@@ -56,7 +56,7 @@ func main() {
 			output, err := cmd.CombinedOutput()
 			if err != nil {
 				fmt.Println(err)
-				fmt.Println("fucked")
+				fmt.Println("error")
 				showNotification("Download failed: " + err.Error())
 				return
 			}
